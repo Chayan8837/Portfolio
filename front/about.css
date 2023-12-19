@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+html,
+body {
+    background-color: rgb(12, 12, 68); 
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    background-color: rgb(15, 10, 60); 
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+        top: 0;  
+}
+.btnclicked{
+    font-size:1.5rem;
+    color: rgb(91, 91, 214);
+
+
+}
+
+.nevbtn {
+    padding: 0 30px;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+}
+.nevbtn:hover{
+    color: rgb(91, 91, 214);
+    font-size: 1rem;
+}
+
+
+.left {
+    font-size: 3rem;
+}
+.right{
+    width: 600px;
+}
+
+
+
+.aboutsec{
+    width: 100%;
+    height: 100vh;
+    background: rgb(12, 12, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.about{
+    width: 90%;
+    height: 80%;
+    background:  transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid black;
+    box-shadow: 10px 10px 40px 7px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: row;
+
+    
+}
+img{
+    width: 400px;
+    height: 600px;
+    margin: 40px;
+    border: 2px solid;
+}
+.line{
+    height: 600px;
+    width: 2px;
+    background: white;
+    margin: 40px 0;
+}
+.hori{
+    margin-top: 40px;
+    width: 800px;
+    height: 2px;
+    background: white;}
+    .info{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 13px;
+        font-style: italic;
+    }
+    .stylefont{
+        color: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .hori2{
+        margin-top: 30px;
+        width: 770px;
+        height: 2px;
+        background: white;
+        
+    }
+    .varilines
+    {
+        width: 880px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 4px;
+        
+        
+       
+
+    }
+        .varis{
+           
+
+            height: 300px;
+            width: 250px;
+            border-right: 2px solid;
+        display: flex;
+        justify-content: center;
+    }
+            
+          
+        
+    
