@@ -1,6 +1,6 @@
 let button= document.querySelector(".nav-icon");
 let right = document.querySelector(".right");
-let body=document.querySelector("main");
+
 
 let  a = right.classList;
 button.addEventListener(`click`,
@@ -8,12 +8,7 @@ button.addEventListener(`click`,
 {
     right.classList.add("show")
 })
-body.addEventListener(`click`,
-()=>
-{
-    right.classList.remove("show")
-})
-document.querySelector("section").addEventListener(`dblclick`,
+document.querySelector("section").addEventListener(`click`,
 ()=>
 {
     right.classList.remove("show")
