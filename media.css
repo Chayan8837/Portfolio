@@ -121,53 +121,6 @@
     font-size: 15px;
 
 }
-.about{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.about img{
-    height: 100%;
-    width: auto;
-    margin: 20px 0px 0px 20px;
-    
-    
-}
-.line{
-    height: 0px;
-}
-.hori{
-    width: 370px;
-    margin: 0;
-    margin: 20px 8px;
-
-
-}
-.imgdiv{
-    height: 30%;
-    width: 40%;
-}
-.info{
-    font-size: 5px;
-    margin-left: 0;
-    border-bottom: 2px solid;
-    width: 225px;
-}
-.hori2{
-    margin-top: 1px;
-    height: 100px;
-    width: 0px;
-}
-.varis{
-    height: 100px;
-    width: 73px;
-    font-size: 6px;
-}
-
-
-
-
 
 
 
