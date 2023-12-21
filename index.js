@@ -6,15 +6,15 @@ let  a = right.classList;
 button.addEventListener(`click`,
 ()=>
 {
-    right.classList.add("show")
+    right.classList.add("show");
+    button.classList.add("rotate");
+
+
 })
 body.addEventListener(`click`,
 ()=>
 {
     right.classList.remove("show")
-})
-document.querySelector("section").addEventListener(`dblclick`,
-()=>
-{
-    right.classList.remove("show")
+    button.classList.remove("rotate")
+
 })

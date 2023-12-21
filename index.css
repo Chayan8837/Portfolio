@@ -40,6 +40,9 @@ nav {
 .left {
     font-size: 3rem;
 }
+.nav-icon{
+    display: none;
+}
 
 
 

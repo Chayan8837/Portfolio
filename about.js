@@ -6,10 +6,16 @@ let  a = right.classList;
 button.addEventListener(`click`,
 ()=>
 {
-    right.classList.add("show")
+    right.classList.add("show");
+    button.classList.add("rotate");
+
 })
 document.querySelector("section").addEventListener(`click`,
 ()=>
 {
-    right.classList.remove("show")
+    right.classList.remove("show");
+    button.classList.remove("rotate");
 })
+
+
+
