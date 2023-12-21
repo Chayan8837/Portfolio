@@ -15,6 +15,64 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(6px);
+}
+
+.hide{
+   
+    display: none;
+    
+
+}
+
+.popup-msg{
+    box-shadow: 7px 2px 10px 2px rgba(236, 230, 230, 0.6);
+    border-radius:20px;
+    height: 20%;
+    width: 20%;
+    background: rgb(72, 54, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    
+}
+.cancel{
+    font-size: 45px;
+    margin-left: 80%;
+}
+.popup-input{
+    margin: 4px 0;
+    color: black;
+    height: 15%;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    padding-left: 3px;
+
+}
+.popup-submit{
+    height: 15%;
+    width: 20%;
+    color: black;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
+
+
+
 nav {
       background-color: rgb(15, 10, 60); 
     height: 60px;
@@ -39,6 +97,9 @@ nav {
 
 .left {
     font-size: 3rem;
+}
+.hibox{
+    font-size: 20px;
 }
 .nav-icon{
     display: none;
@@ -128,8 +189,7 @@ nav {
     
     background: transparent;
     
-    display: flex;
-    z-index: 0;
+    
    
 
 }
@@ -137,13 +197,11 @@ nav {
     height: 100px;
     width: 100px;
     object-fit: cover;
-    display: flex;
-    z-index: 33;
+
     
 }
 .skills div img:hover{
-    display: flex;
-    z-index: 99;
+    
     transition: transform  ease 1s; 
     transform: rotate(360deg) scale(1.3);
     
