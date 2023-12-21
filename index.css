@@ -92,6 +92,7 @@ nav {
 
 
 .secondsection{
+
     width: 100%;
     height: 92.5vh;
     background-image:linear-gradient(rgb(12, 12, 68),black);
@@ -105,6 +106,7 @@ nav {
 
     
 }
+
 .skills{
     height: 85%;
     width: 70%;
@@ -115,6 +117,7 @@ nav {
     padding-top: 40px;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .skills div{
@@ -124,6 +127,9 @@ nav {
     margin: 0 30px;
     
     background: transparent;
+    
+    display: flex;
+    z-index: 0;
    
 
 }
@@ -131,7 +137,18 @@ nav {
     height: 100px;
     width: 100px;
     object-fit: cover;
+    display: flex;
+    z-index: 33;
+    
 }
+.skills div img:hover{
+    display: flex;
+    z-index: 99;
+    transition: transform  ease 1s; 
+    transform: rotate(360deg) scale(1.3);
+    
+}
+
 
 
 .thirdsection{
